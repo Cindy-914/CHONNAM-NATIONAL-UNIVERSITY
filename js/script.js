@@ -172,8 +172,8 @@ $(function () {
       startTimer(); // 슬라이드 재개
     });
 
-    /* // 자동 슬라이드 시작
-    startTimer(); */
+    // 자동 슬라이드 시작
+    startTimer();
   });
 
   /* 학사 입학 장학 전체 메뉴
