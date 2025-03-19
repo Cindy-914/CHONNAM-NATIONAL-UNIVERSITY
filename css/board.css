@@ -1,0 +1,141 @@
+/* 게시판 글쓰기(board_form.php) */
+#board {
+  margin-top: 250px;
+}
+.container3 {
+  position: relative;
+  width: 900px;
+  margin: 0 auto;
+}
+.container3 h3 {
+  margin-top: 30px;
+  padding: 30px 0;
+  border-bottom: solid 2px #516e7f;
+  font-size: 28px;
+  text-align: center;
+}
+.container3 span {
+  display: inline-block;
+}
+
+.container3 li {
+  padding: 12px;
+  border-bottom: solid 1px #dddddd;
+  text-align: center;
+}
+.container3 input {
+  width: 500px;
+  height: 25px;
+  border: 1px solid #cccccc;
+}
+.container3 textarea {
+  width: 500px;
+  height: 150px;
+}
+.container3 #text_area {
+  position: relative;
+  height: 158px;
+}
+.container3 #text_area .col1 {
+  position: absolute;
+  top: 10px;
+}
+.container3 #text_area .col2 {
+  position: absolute;
+  left: 166px;
+}
+.container3 .buttons {
+  text-align: right;
+  margin: 80px 0 40px 0;
+}
+.container3 .buttons li {
+  display: inline;
+  border: none;
+}
+.container3 .buttons button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* 게시판 목록보기(board_list.php) */
+
+.board_list {
+  background-color: #517f59;
+  height: 500px;
+}
+.board_list .list li {
+  padding: 10px 0;
+  border-bottom: solid 1px #dddddd;
+}
+.board_list .list li span {
+  display: inline-block;
+  text-align: center;
+}
+.container3 .col1 {
+  width: 90px;
+}
+.container3 .col2 {
+  width: 280px;
+}
+.container3 .col3 {
+  width: 80px;
+}
+.container3 .col4 {
+  width: 80px;
+}
+.container3 .col5 {
+  width: 170px;
+}
+.container3 .col6 {
+  width: 90px;
+}
+.page_num {
+  text-align: center;
+  margin: 30px 0;
+}
+.page_num li {
+  display: inline;
+}
+ul#page_num {
+  display: flex;
+  justify-content: center; /* 가운데 정렬 */
+  list-style: none; /* 기본 리스트 스타일 제거 */
+  padding: 0;
+  margin: 30px 0;
+}
+
+ul#page_num li {
+  margin: 0 5px; /* 각 페이지 숫자 간 간격 */
+  font-size: 14px;
+  border: none;
+}
+
+
+
+/* 게시판 내용보기(board_view.php) */
+#board_box {
+  width: 800px;
+  margin: 250px auto;
+}
+#board_box .title {
+  margin-top: 30px;
+  padding: 10px;
+  border-bottom: solid 2px #516e7f;
+  font-size: 20px;
+}
+#view_content li:nth-child(1) {
+  padding: 15px;
+  border-bottom: solid 1px #aaaaaa;
+}
+#view_content .col2 {
+  float: right;
+}
+#view_content li:nth-child(2) {
+  padding: 15px 15px 80px 15px;
+  border-bottom: solid 1px #cccccc;
+}
+#view_content li:nth-child(3) button {
+  padding: 5px 20px;
+  margin: 15px 0 40px 720px;
+  cursor: pointer;
+}
